@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1762252582218" clover="3.2.0">
-  <project timestamp="1762252582218" name="All files">
-    <metrics statements="5" coveredstatements="4" conditionals="16" coveredconditionals="15" methods="1" coveredmethods="0" elements="22" coveredelements="19" complexity="0" loc="5" ncloc="5" packages="1" files="4" classes="4"/>
+<coverage generated="1762262064383" clover="3.2.0">
+  <project timestamp="1762262064384" name="All files">
+    <metrics statements="71" coveredstatements="68" conditionals="69" coveredconditionals="68" methods="14" coveredmethods="11" elements="154" coveredelements="147" complexity="0" loc="71" ncloc="71" packages="1" files="10" classes="10"/>
+    <file name="Counter.vue" path="C:\Users\MarkvHouten\Documents\Script Opdrachten\Unit Testing\vue-testing\src\components\Counter.vue">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="13" type="stmt"/>
+      <line num="11" count="5" type="stmt"/>
+      <line num="13" count="5" type="stmt"/>
+      <line num="17" count="5" type="stmt"/>
+      <line num="18" count="8" type="stmt"/>
+      <line num="19" count="8" type="stmt"/>
+    </file>
     <file name="Greeting.vue" path="C:\Users\MarkvHouten\Documents\Script Opdrachten\Unit Testing\vue-testing\src\components\Greeting.vue">
       <metrics statements="0" coveredstatements="0" conditionals="2" coveredconditionals="1" methods="0" coveredmethods="0"/>
     </file>
@@ -11,13 +20,88 @@
       <line num="12" count="1" type="stmt"/>
       <line num="13" count="0" type="cond" truecount="2" falsecount="0"/>
     </file>
+    <file name="LikeButton.vue" path="C:\Users\MarkvHouten\Documents\Script Opdrachten\Unit Testing\vue-testing\src\components\LikeButton.vue">
+      <metrics statements="8" coveredstatements="8" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <line num="12" count="6" type="stmt"/>
+      <line num="16" count="6" type="stmt"/>
+      <line num="21" count="6" type="stmt"/>
+      <line num="23" count="6" type="stmt"/>
+      <line num="24" count="4" type="stmt"/>
+      <line num="26" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="27" count="3" type="stmt"/>
+      <line num="29" count="1" type="stmt"/>
+    </file>
+    <file name="LoginForm.vue" path="C:\Users\MarkvHouten\Documents\Script Opdrachten\Unit Testing\vue-testing\src\components\LoginForm.vue">
+      <metrics statements="12" coveredstatements="12" conditionals="16" coveredconditionals="16" methods="3" coveredmethods="3"/>
+      <line num="7" count="3" type="stmt"/>
+      <line num="17" count="3" type="stmt"/>
+      <line num="32" count="7" type="stmt"/>
+      <line num="33" count="7" type="stmt"/>
+      <line num="34" count="7" type="stmt"/>
+      <line num="36" count="7" type="stmt"/>
+      <line num="40" count="7" type="stmt"/>
+      <line num="42" count="4" type="stmt"/>
+      <line num="45" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="46" count="3" type="stmt"/>
+      <line num="47" count="3" type="stmt"/>
+      <line num="51" count="1" type="stmt"/>
+    </file>
     <file name="LoginStatus.vue" path="C:\Users\MarkvHouten\Documents\Script Opdrachten\Unit Testing\vue-testing\src\components\LoginStatus.vue">
       <metrics statements="1" coveredstatements="1" conditionals="4" coveredconditionals="4" methods="0" coveredmethods="0"/>
       <line num="8" count="4" type="stmt"/>
     </file>
+    <file name="RegistrationForm.vue" path="C:\Users\MarkvHouten\Documents\Script Opdrachten\Unit Testing\vue-testing\src\components\RegistrationForm.vue">
+      <metrics statements="25" coveredstatements="25" conditionals="29" coveredconditionals="29" methods="5" coveredmethods="5"/>
+      <line num="7" count="4" type="stmt"/>
+      <line num="17" count="4" type="stmt"/>
+      <line num="27" count="4" type="stmt"/>
+      <line num="37" count="3" type="stmt"/>
+      <line num="53" count="6" type="stmt"/>
+      <line num="54" count="6" type="stmt"/>
+      <line num="55" count="6" type="stmt"/>
+      <line num="56" count="6" type="stmt"/>
+      <line num="57" count="6" type="stmt"/>
+      <line num="59" count="6" type="stmt"/>
+      <line num="68" count="6" type="stmt"/>
+      <line num="70" count="5" type="stmt"/>
+      <line num="73" count="5" type="cond" truecount="5" falsecount="0"/>
+      <line num="74" count="1" type="stmt"/>
+      <line num="75" count="1" type="stmt"/>
+      <line num="79" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="80" count="1" type="stmt"/>
+      <line num="81" count="1" type="stmt"/>
+      <line num="85" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="86" count="1" type="stmt"/>
+      <line num="87" count="1" type="stmt"/>
+      <line num="91" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="92" count="1" type="stmt"/>
+      <line num="93" count="1" type="stmt"/>
+      <line num="97" count="1" type="stmt"/>
+    </file>
     <file name="StatusBadge.vue" path="C:\Users\MarkvHouten\Documents\Script Opdrachten\Unit Testing\vue-testing\src\components\StatusBadge.vue">
       <metrics statements="1" coveredstatements="1" conditionals="6" coveredconditionals="6" methods="0" coveredmethods="0"/>
       <line num="8" count="1" type="stmt"/>
+    </file>
+    <file name="UserCard.vue" path="C:\Users\MarkvHouten\Documents\Script Opdrachten\Unit Testing\vue-testing\src\components\UserCard.vue">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="8" count="5" type="stmt"/>
+      <line num="12" count="5" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="18" count="5" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+    </file>
+    <file name="UserList.vue" path="C:\Users\MarkvHouten\Documents\Script Opdrachten\Unit Testing\vue-testing\src\components\UserList.vue">
+      <metrics statements="8" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="0"/>
+      <line num="12" count="7" type="stmt"/>
+      <line num="16" count="7" type="stmt"/>
+      <line num="17" count="0" type="stmt"/>
+      <line num="22" count="7" type="stmt"/>
+      <line num="24" count="10" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+      <line num="27" count="0" type="stmt"/>
     </file>
   </project>
 </coverage>
