@@ -24,7 +24,7 @@ const toggleLike = () => {
     liked.value = !liked.value;
 
     if (liked.value) {
-        emit('like');
+        emit('like',);
     } else {
         emit('unlike');
     }

@@ -37,6 +37,7 @@ describe('LikeButton', () => {
         await wrapper.find('button').trigger('click');
         await wrapper.find('button').trigger('click');
         // Assert
+        expect(wrapper.emitted('like')).toBeTruthy();
         expect(wrapper.emitted('unlike')).toBeTruthy();
     });
     it('should render count when provided', async () => {
