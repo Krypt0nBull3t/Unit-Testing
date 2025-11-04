@@ -1,14 +1,19 @@
 import { shallowMount } from '@vue/test-utils';
+import { ref } from 'vue';
 import LikeButton from '../../src/components/LikeButton.vue';
 
 describe('LikeButton', () => {
     it('should render Like button initially', () => {
+        // Arrange
+        const liked = ref(false);
         // Act
         const wrapper = shallowMount(LikeButton);
         // Assert
         expect(wrapper.text()).toContain('🤍 Like');
     });
     it('should render Unlike button after clicking Like', async () => {
+        // Arrange
+        const liked = ref(false);
         // Act
         const wrapper = shallowMount(LikeButton);
         await wrapper.find('button').trigger('click');
@@ -16,6 +21,8 @@ describe('LikeButton', () => {
         expect(wrapper.text()).toContain('❤️ Liked');
     });
     it('should emit like event when Like button is clicked', async () => {
+        // Arrange
+        const liked = ref(false);
         // Act
         const wrapper = shallowMount(LikeButton);
         await wrapper.find('button').trigger('click');
@@ -23,6 +30,8 @@ describe('LikeButton', () => {
         expect(wrapper.emitted('like')).toBeTruthy();
     });
     it('should emit unlike event when Unlike button is clicked', async () => {
+        // Arrange
+        const liked = ref(false);
         // Act
         const wrapper = shallowMount(LikeButton);
         await wrapper.find('button').trigger('click');
