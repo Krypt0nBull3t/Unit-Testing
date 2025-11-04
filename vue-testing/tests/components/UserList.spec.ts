@@ -96,4 +96,19 @@ describe('UserList', () => {
         // Assert
         expect(wrapper.find('[data-test="empty-state"]').exists()).toBe(false);
     });
+    
+    it('should emit delete event with user id when delete button is clicked', async () => {
+        // Arrange
+        const users = [
+            {id: 1, name: 'Karl', email: 'karl@example.com'},
+            {id: 2, name: 'Liam', email: 'liam@example.com'},
+        ];
+        // Act
+        const wrapper = shallowMount(UserList, {
+            props: {users},
+        });
+        await wrapper.findAll('[data-test="delete-button"]')[0].trigger('click');
+        // Assert
+        expect(wrapper.emitted('delete')?.[0]).toStrictEqual([1]);
+    });
 });

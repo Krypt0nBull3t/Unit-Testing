@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1762262064383" clover="3.2.0">
-  <project timestamp="1762262064384" name="All files">
-    <metrics statements="71" coveredstatements="68" conditionals="69" coveredconditionals="68" methods="14" coveredmethods="11" elements="154" coveredelements="147" complexity="0" loc="71" ncloc="71" packages="1" files="10" classes="10"/>
+<coverage generated="1762262294535" clover="3.2.0">
+  <project timestamp="1762262294535" name="All files">
+    <metrics statements="71" coveredstatements="70" conditionals="69" coveredconditionals="68" methods="14" coveredmethods="13" elements="154" coveredelements="151" complexity="0" loc="71" ncloc="71" packages="1" files="10" classes="10"/>
     <file name="Counter.vue" path="C:\Users\MarkvHouten\Documents\Script Opdrachten\Unit Testing\vue-testing\src\components\Counter.vue">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="2" count="13" type="stmt"/>
@@ -93,15 +93,15 @@
       <line num="21" count="1" type="stmt"/>
     </file>
     <file name="UserList.vue" path="C:\Users\MarkvHouten\Documents\Script Opdrachten\Unit Testing\vue-testing\src\components\UserList.vue">
-      <metrics statements="8" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="0"/>
-      <line num="12" count="7" type="stmt"/>
-      <line num="16" count="7" type="stmt"/>
-      <line num="17" count="0" type="stmt"/>
-      <line num="22" count="7" type="stmt"/>
-      <line num="24" count="10" type="stmt"/>
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <line num="12" count="8" type="stmt"/>
+      <line num="16" count="8" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="22" count="8" type="stmt"/>
+      <line num="24" count="12" type="stmt"/>
       <line num="25" count="1" type="stmt"/>
       <line num="26" count="1" type="stmt"/>
-      <line num="27" count="0" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
